@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.head{
+    display: flex;
+    margin-bottom: 20px;
+}
+.kiri, .kanan{
+    padding: 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.kiri{
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    height: auto;
+}
+.kanan{
+    text-align: right;
+    width: 100%;
+    height: auto;
+}
+.y{
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+.h1{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.left, .mid, .right {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.left {
+    width: 80%;
+    height: auto;
+}
+.mid {
+    width: 100%;
+    height: auto;
+}
+.right {
+    width: 80%;
+    height: auto;
+}
+.title {
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section {
+    margin-bottom: 20px;
+}
+.list {
+    list-style: none;
+    padding: 0;
+}
+.list li {
+    margin-bottom: 5px;
+}
+.b {
+    margin-left: 10px;
+}
+.r{
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.sh {
+    font-family: cursive;
+}
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.review {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.name {
+    color: #808080;
+}
+footer {
+    font-family: cursive;
+    text-align: center;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .head{
+        text-align: center;
+        flex-direction: column;
+    }
+    .y{
+        text-align: center;
+    }
+    .left, .mid, .right {
+        width: 92%;
+        margin-bottom: 20px;
+    }
+    .title{
+        text-align: center;
+    }
+    .review{
+        width: 86%;
+    }
+}
