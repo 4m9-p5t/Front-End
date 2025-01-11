@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Website</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 0;
+            font-family: cursive;
+            font-weight: bold;
+        }
+
+        .h1 {
+            text-align: center;
+            margin-top: 0;
+            color: #808080;
+        }
+        
+        nav {
+            background-color: #fff;
+            padding: 10px;
+            margin-left: 2px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            margin-right: 3px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 10px;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-family: cursive;
+        }
+
+        .b {
+            font-family: cursive;
+            margin-left: 20px;
+        }
+        .sh {
+            font-family: cursive;
+        }
+        .reviews {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .review {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 10px;
+        }
+
+        .name {
+            color: #808080;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>your name</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Articels</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Frontend Developer</h1>
+    <p class="h1">html only with proper layout, no styling</p>
+    <div class="container">
+        <div class="section">
+            <h2>Projects</h2>
+            <hr style="height:3px;border-width:0;color:black;background-color:black">
+            <p>HTML only portofolio</p>
+            <hr style="height:3px;border-width:0;color:black;background-color:black">
+            <p>calculator</p>
+            <hr style="height:3px;border-width:0;color:black;background-color:black">
+            <p>Quiz App</p>
+            <hr style="height:3px;border-width:0;color:black;background-color:black">
+            <P>Countdown Timer</P>
+            <hr style="height:3px;border-width:0;color:black;background-color:black">
+            <p>Product Upcoming Page</p>
+            <hr style="height:3px;border-width:0;color:black;background-color:black">
+        </div>
+        <div class="section">
+            <h2>Work Experience</h2>
+            <hr style="height:3px;border-width:0;color:black;background-color:black">
+            <p class="sh">roadmap.sh</p>
+            <p>Solved all the frontend projects</p>
+            <a href="https://www.example.com" target="_blank">Visit my Profile</a>
+            <hr style="height:3px;border-width:0;color:black;background-color:black">
+            <p class="sh">OpenSource Work</p>
+            <p>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Star`s.</p>
+            <a href="https://www.example.com" target="_blank">Visit my Profile</a>
+            <hr style="height:3px;border-width:0;color:black;background-color:black">
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <hr style="height:3px;border-width:0;color:black;background-color:black">
+            <p>Graduated with 3.76 out of 4 CGPA.</p>
+            <p>Won Acme Hackathon.</p>
+            <p>Organized 30 sessions.</p>
+            <p>Courses I took:</p>
+            <ul>
+                <li>Object Oriented Programming</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Web Engineering</li>
+                <li>Artificial Intelligence</li>
+                <li>Human Computer Interaction</li>
+                <li>Computer Graphics</li>
+                <li>Database Management System</li>
+                <li>Distributed Database System</li>
+                <li>Discreet Mathematics</li>
+            </ul>
+        </div>
+    </div>
+    <h2 class="b">Review from my Teachers</h2>
+    <div class="reviews">
+        <div class="review">
+            <p>John doe was a briliant student; always stood out with his assignments.</p>
+            <p class="name">Jane Doe</p>
+            <p class="name">Assistant Professor</p>
+        </div>
+        <div class="review">
+            <p>John doe was a briliant student; always stood out with his assignments.</p>
+            <p class="name">Jane Doe</p>
+            <p class="name">Assistant Professor</p>
+        </div>
+        <div class="review">
+            <p>John doe was a briliant student; always stood out with his assignments.</p>
+            <p class="name">Jane Doe</p>
+            <p class="name">Assistant Professor</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Frontend Developer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
